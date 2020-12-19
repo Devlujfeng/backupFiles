@@ -1,1 +1,20 @@
 test
+
+
+namespace PartitionNumberCalculator
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string input = "start";
+            input = Console.ReadLine();
+            while (input != "stop") {
+                string key = input;
+                int partition = Math.Abs(key.GetHashCode()) % 3;
+                Console.WriteLine("Hello World! = = {0}", partition);
+                input = Console.ReadLine();
+            }
+        }
+    }
+}
