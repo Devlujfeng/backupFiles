@@ -6,6 +6,11 @@ docker push backup-image:v1
 
 docker load -i /tmp/backup01.tar
 
-
+How to Backup docker image:
 https://www.thegeekdiary.com/how-to-backup-and-restore-docker-containers/#:~:text=Taking%20backup%20of%20Docker%20Container&text=To%20know%20this%20data%2Ddirectory,get%20backup%20of%20data%20volume.
+
+How to customize Docker image:
 https://www.scalyr.com/blog/create-docker-image/
+
+How to use dockerfile:
+https://thenewstack.io/docker-basics-how-to-use-dockerfiles/
