@@ -8,3 +8,4 @@ docker load -i /tmp/backup01.tar
 
 
 https://www.thegeekdiary.com/how-to-backup-and-restore-docker-containers/#:~:text=Taking%20backup%20of%20Docker%20Container&text=To%20know%20this%20data%2Ddirectory,get%20backup%20of%20data%20volume.
+https://www.scalyr.com/blog/create-docker-image/
